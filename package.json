@@ -1,0 +1,32 @@
+{
+  "name": "dm.crypter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "encrypt": "babel-node lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detect-me/dm.crypter.git"
+  },
+  "author": "detectme.tech@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detect-me/dm.crypter/issues"
+  },
+  "homepage": "https://github.com/detect-me/dm.crypter#readme",
+  "devDependencies": {
+    "@babel/cli": "7.15.7",
+    "@babel/core": "7.15.5",
+    "@babel/node": "7.15.4",
+    "@babel/preset-env": "7.15.6",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.24.2"
+  },
+  "dependencies": {
+    "crypto-js": "4.1.1",
+    "dotenv": "10.0.0"
+  }
+}
