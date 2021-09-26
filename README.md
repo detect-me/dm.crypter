@@ -7,10 +7,10 @@
 1. Склонировать репозиторий
 2. Установить node-js платформу https://nodejs.org
 3. Выполнить установку пакетов командой npm install
-4. Создать файл .env на основе файла .env.exemple
+4. Создать файл .env на основе файла .env.example
 5. Запросить ключи detectme.tech@gmail.com
 6. Подставить ключи место VALUE
-7. Создать файл appConfig.json на основе appConfig.exemple.json
+7. Создать файл appConfig.json на основе appConfig.example.json
 8. Наполнить его
   1. hostURL это целевая страница на которую ведет площадка(facebook)
   2. blackPageUrl страница на которой хостится оффер
